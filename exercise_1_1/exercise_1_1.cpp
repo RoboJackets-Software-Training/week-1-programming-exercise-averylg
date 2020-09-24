@@ -42,14 +42,14 @@ int main() {
         		wheel_speeds[i] = 0;
         		
         	}
-        	std::cout << "Shutting Down\n";
+        	std::cout << "Shutting down" << std::endl;
         	keep_going = false;
         } else {
         	std::cout << "Sorry, I did'nt get that.  Try again." << std::endl;
         }
         //
         for(int i = 0; i <= 3; i++) {
-        	std::cout << "Wheel at index " << i << " has speed " << wheel_speeds[i] << std::endl;
+        	std::cout << "wheel at index " << i << " has speed " << wheel_speeds[i] << std::endl;
         }
     }
 
